@@ -1,4 +1,4 @@
-import { coloredString } from "libs/color-utils.js";
+import { coloredString } from "../libs/color-utils.js";
 
 const colors = {
   profit: (string) => {

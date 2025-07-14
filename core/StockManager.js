@@ -1,6 +1,6 @@
-import { Portfolio } from 'stocks/core/Portfolio.js';
-import { Budget } from 'stocks/core/Budget.js';
-import { Strategy } from 'stocks/logic/Strategy.js';
+import { Portfolio } from './Portfolio.js';
+import { Budget } from './Budget.js';
+import { Strategy } from '../logic/Strategy.js';
 
 export class StockManager {
   /** @param {NS} ns */

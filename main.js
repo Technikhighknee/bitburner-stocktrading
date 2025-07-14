@@ -1,8 +1,8 @@
-import { Config } from 'stocks/config.js';
-import { StockManager } from 'stocks/core/StockManager.js';
-import { Logger } from 'stocks/ui/Logger.js';
-import { ToastManager } from 'stocks/ui/ToastManager.js';
-import { TailTitle } from 'stocks/ui/TailTitle.js';
+import { Config } from './config.js';
+import { StockManager } from './core/StockManager.js';
+import { Logger } from './ui/Logger.js';
+import { ToastManager } from './ui/ToastManager.js';
+import { TailTitle } from './ui/TailTitle.js';
 
 /** @param {NS} ns **/
 export async function main(ns) {

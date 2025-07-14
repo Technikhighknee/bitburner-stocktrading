@@ -21,9 +21,6 @@ export class Strategy {
   }
 
   sortBuyOrder(a, b) {
-    // const fA = this.ns.stock.getForecast(a);
-    // const fB = this.ns.stock.getForecast(b);
-    // return fB - fA; // sort by forecast descending
     const priceB = this.ns.stock.getPrice(b);
     const priceA = this.ns.stock.getPrice(a);
     return priceB - priceA; // sort by price descending
